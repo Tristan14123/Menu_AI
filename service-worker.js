@@ -3,8 +3,8 @@ self.addEventListener('install', event => {
     caches.open('menu-ai-cache-v1').then(cache => {
       return cache.addAll([
         '/',
-        '/index.html',
-        '/manifest.json',
+        '/Menu_AI/index.html',
+        '/Menu_AI/manifest.json',
         // Ajoute ici les autres fichiers à mettre en cache
       ]);
     })
